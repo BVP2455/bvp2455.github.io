@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Own CV: Francisco Javier Martos Romero</title>
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <img src="fotocara.jpg" alt="Profile Picture" width="150" height="150">
+            <div>
+                <h1>Francisco Javier Martos Romero</h1>
+                <div>
+                    <button type="button" id="downloadPdf">Download CV (PDF)</button>
+                </div>
+            </div>
+        </div>
+        <h2>Who am I?</h2>
+            <p>Final-year Software Engineering student at the University of Seville (ETSII), currently on an Erasmus exchange in Toulouse. 
+                I have strengthened my skills in software development through team-based projects, focusing on collaboration, communication, and adaptability. 
+                I am looking for opportunities to apply my programming and problem-solving skills in a software engineering role.</p> 
+
+        <details>
+            <summary>More About Me</summary>
+            <p>
+                I enjoy building full-stack applications and improving products iteratively with user feedback. I am especially interested in
+                web engineering, AI-powered features, and working in collaborative teams.
+            </p>
+        </details>
+
+        <h2>Hard Skills</h2>
+            <ul>
+                <li>Programming Languages: Java, Python, JavaScript</li>
+                <li>Web Development: HTML, CSS, React, Node.js</li>
+                <li>Databases: MySQL, MongoDB</li>
+                <li>Version Control: Git, GitHub</li>
+                <li>Soft Skills: Teamwork, Communication, Problem-Solving</li>
+            </ul>
+        <h2>Soft Skills</h2>
+            <ul>
+                <li>Leadership</li>
+                <li>Teamwork</li>
+                <li>Communication</li>
+                <li>Problem-Solving</li>
+                <li>Adaptability</li>
+            </ul>
+        <h2>Languages</h2>
+            <ul>
+                <li>Spanish</li>
+                <li>English</li>
+            </ul>
+        <h2>Projects</h2>
+            <ul>
+                <li><strong>Web Application for Cities Analysis (CityScore):</strong> Developed a full-stack web application using React and Node.js to help users analyze and compare various metrics across different cities using AI. It is still in progress.</li>
+                <li><strong>Veterinary Website (University Project):</strong> Developed a web project while working in a Scrum workflow (sprint planning, task breakdown, reviews/retrospectives), becoming comfortable with how teams deliver features in sprints.</li>
+                <li><strong>Los Mapas del Reino (University Team Project):</strong> Built a browser-based game as a group project with a Java backend and JavaScript frontend; implemented user management, lobby creation/join flow, and key game logic, collaborated with teammates using Git, and delivered a fully working local prototype.</li>
+            </ul>
+        <h2>Education</h2>
+            <ul>
+                <li><strong>High School Diploma</strong> - <a href="https://blogsaverroes.juntadeandalucia.es/ies-murillo/">IES Murillo</a>, Graduated: 2022</li>
+                <li><strong>Degree in Software Engineering</strong> - <a href="https://www.informatica.us.es/">University of Seville (ETSII)</a>, Expected Graduation: 2026</li>
+                <li><strong>Erasmus Exchange Program</strong> - <a href="https://www.ut-capitole.fr/">Université Toulouse Capitole 1</a>, France, 2025-2026 Academic Year</li>
+            </ul>
+        <form>
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="xxx@example.com"><br>
+            <label for="text">Text:</label>
+            <textarea></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+        <div>
+            <a href="https://es.linkedin.com/in/francisco-javier-martos-romero-68837136b" aria-label="linkedin">
+                <img src="linkedin.png" alt="Linkedin" height="100" width="100">
+            </a>
+            <a href="https://github.com/BVP2455" aria-label="Github">
+                <img src="github.png" alt="Github" height="100" width="100">
+            </a>
+        </div>
+        <script>
+            document.getElementById('downloadPdf').addEventListener('click', () => {
+                window.print();
+            });
+        </script>
+    </main>
+</body>
+
+</html>
